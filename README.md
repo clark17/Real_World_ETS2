@@ -7,4 +7,4 @@ Il s'agit d'un mod pour le jeu European Truck Simulator 2, visant à apporter pl
 GNU/GPL v3
 
 ##Aide:
-Se référer au wiki.
+Se référer au [wiki](ttps://github.com/clark17/Real_World_ETS2/wiki).
