@@ -1,0 +1,23 @@
+SiiNunit
+{
+accessory_paint_job_data : gulf_a.renault.premium.paint_job
+{
+	name : "Gulf"												# The name of the paintjob as shown in game.
+	price : 10000												# How much this paint job costs in euros.
+	unlock : 0													# The minimum level required to purchase this paint job.
+	mask_r_locked : false										# If set to true, the color for this channel is locked. The user cannot change it.
+	mask_g_locked : false										# If set to true, the color for this channel is locked. The user cannot change it.
+	mask_b_locked : false										# If set to true, the color for this channel is locked. The user cannot change it.
+	base_color_locked : false									# If set to true, the base color is locked. The user cannot change it.
+	airbrush : true												# If set to true, this paint job is of the air brush type. The colors of the texture will be represented on the paintable parts of the truck. Base color will be used for the rest.
+	stock : true												# If set to true, this paint job will show up in the truck customization section for both workshop and dealership.
+	alternate_uvset : false										# Define true to use alternative UV set for this paintjob.
+	base_color : (0.3323, 0.5848, 0.8206)						# Sets the base color for the paint job. Used for all unpainted areas.
+	mask_r_color : (0.0000, 0.0000, 0.0000)						# Sets the default replacement color for the respective channel in the paint job texture.
+	mask_g_color : (0.0000, 0.0000, 0.0000)						# Sets the default replacement color for the respective channel in the paint job texture.
+	mask_b_color : (0.0000, 0.0000, 0.0000)						# Sets the default replacement color for the respective channel in the paint job texture.
+	icon : "paintjob_gulf"												# The icon used in the list of paint jobs in the paint shop or truck customization.
+	paint_job_mask : "/vehicle/truck/upgrade/paintjob/gulf_renault_premium_a.tobj"	# This sets the path to where the texture object file is located. Which in turn should point to a similarily named .dds texture file.
+	suitable_for[]: "higher.renault.premium.cabin"
+}
+}
