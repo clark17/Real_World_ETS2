@@ -1,0 +1,17 @@
+SiiNunit
+{
+mod_package : .package_name {
+
+    package_version: "dev"
+
+    display_name: "Real World"
+
+    author: "Inrepublica"
+
+    category[]: "other"
+
+    icon: "realworld.jpg"
+
+    description_file: "description.txt"
+}
+}
